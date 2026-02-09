@@ -20,7 +20,7 @@ A minimum of Terraform 1.4.0 is recommended.
 ## Example Usage
 
 ```terraform
-provider "firewallamsp" {
+provider "firewalla-msp" {
   domain = "your-domain.firewalla.net"
   token = "your-msp-token"
 }

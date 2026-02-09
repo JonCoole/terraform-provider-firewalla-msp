@@ -7,3 +7,5 @@ The provider uses the firewalla-msp-go library to interact with the Firewalla MS
 Currently, this provider has been tested against Firewalla MSP version 2.9.1. Given that Firewalla has largely treated the API as something of an afterthought, functionality outside of the specific version number is unknown.
 
 [Provider Documentation](./docs/index.md)
+
+Source code will be hosted on [codeforge](https://codeberg.org/joncoole/terraform-provider-firewalla-msp) where contributions are most welcome.

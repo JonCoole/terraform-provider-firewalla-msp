@@ -81,3 +81,20 @@ resource "firewalla-msp_targetlist" "block_twitter_domains" {
 
 - `id` (String) Unique identifier
 - `last_updated` (String)
+
+## Import
+
+Starting in Terraform v1.5.0, you can use an [import block](https://developer.hashicorp.com/terraform/language/import) to import `firewalla-msp_targetlist`. For example:
+
+```terraform
+import {
+  to = firewalla-msp_targetlist.example
+  id = "see CLI command below for ID"
+}
+```
+
+Importing using the CLI is supported with the following syntax:
+
+```shell
+tofu import firewallamsp_targetlist.test "TL-<id>"
+```

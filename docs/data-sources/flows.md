@@ -33,30 +33,30 @@ data "firewalla-msp_flows" "test_flows" {
 
 ### Read-Only
 
-- `flow` (Attributes List) List of Flows (see [below for nested schema](#nestedatt--flow))
+- `flows` (Attributes List) List of Flows (see [below for nested schema](#nestedatt--flows))
 
-<a id="nestedatt--flow"></a>
-### Nested Schema for `flow`
+<a id="nestedatt--flows"></a>
+### Nested Schema for `flows`
 
 Read-Only:
 
 - `block` (Boolean)
 - `block_type` (String)
 - `count` (Number)
-- `destination` (Attributes) (see [below for nested schema](#nestedatt--flow--destination))
-- `device` (Attributes) (see [below for nested schema](#nestedatt--flow--device))
+- `destination` (Attributes) (see [below for nested schema](#nestedatt--flows--destination))
+- `device` (Attributes) (see [below for nested schema](#nestedatt--flows--device))
 - `direction` (String)
 - `download` (Number)
 - `duration` (Number)
 - `gid` (String)
-- `network` (Attributes) (see [below for nested schema](#nestedatt--flow--network))
+- `network` (Attributes) (see [below for nested schema](#nestedatt--flows--network))
 - `protocol` (String)
-- `source` (Attributes) (see [below for nested schema](#nestedatt--flow--source))
+- `source` (Attributes) (see [below for nested schema](#nestedatt--flows--source))
 - `ts` (Number)
 - `upload` (Number)
 
-<a id="nestedatt--flow--destination"></a>
-### Nested Schema for `flow.destination`
+<a id="nestedatt--flows--destination"></a>
+### Nested Schema for `flows.destination`
 
 Read-Only:
 
@@ -65,8 +65,8 @@ Read-Only:
 - `name` (String)
 
 
-<a id="nestedatt--flow--device"></a>
-### Nested Schema for `flow.device`
+<a id="nestedatt--flows--device"></a>
+### Nested Schema for `flows.device`
 
 Read-Only:
 
@@ -75,8 +75,8 @@ Read-Only:
 - `name` (String)
 
 
-<a id="nestedatt--flow--network"></a>
-### Nested Schema for `flow.network`
+<a id="nestedatt--flows--network"></a>
+### Nested Schema for `flows.network`
 
 Read-Only:
 
@@ -84,8 +84,8 @@ Read-Only:
 - `name` (String)
 
 
-<a id="nestedatt--flow--source"></a>
-### Nested Schema for `flow.source`
+<a id="nestedatt--flows--source"></a>
+### Nested Schema for `flows.source`
 
 Read-Only:
 

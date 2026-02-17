@@ -28,10 +28,10 @@ data "firewalla-msp_devices" "devices" {
 
 ### Read-Only
 
-- `device` (Attributes List) List of Devices (see [below for nested schema](#nestedatt--device))
+- `devices` (Attributes List) List of Devices (see [below for nested schema](#nestedatt--devices))
 
-<a id="nestedatt--device"></a>
-### Nested Schema for `device`
+<a id="nestedatt--devices"></a>
+### Nested Schema for `devices`
 
 Read-Only:
 

@@ -27,24 +27,24 @@ data "firewalla-msp_rules" "fetch_allowed_outbound_rules" {
 
 ### Read-Only
 
-- `rule` (Attributes List) List of Rules (see [below for nested schema](#nestedatt--rule))
+- `rules` (Attributes List) List of Rules (see [below for nested schema](#nestedatt--rules))
 
-<a id="nestedatt--rule"></a>
-### Nested Schema for `rule`
+<a id="nestedatt--rules"></a>
+### Nested Schema for `rules`
 
 Read-Only:
 
 - `action` (String)
 - `direction` (String)
 - `gid` (String)
-- `hit` (Attributes) (see [below for nested schema](#nestedatt--rule--hit))
+- `hit` (Attributes) (see [below for nested schema](#nestedatt--rules--hit))
 - `id` (String)
-- `scope` (Attributes) (see [below for nested schema](#nestedatt--rule--scope))
+- `scope` (Attributes) (see [below for nested schema](#nestedatt--rules--scope))
 - `status` (String)
-- `target` (Attributes) (see [below for nested schema](#nestedatt--rule--target))
+- `target` (Attributes) (see [below for nested schema](#nestedatt--rules--target))
 
-<a id="nestedatt--rule--hit"></a>
-### Nested Schema for `rule.hit`
+<a id="nestedatt--rules--hit"></a>
+### Nested Schema for `rules.hit`
 
 Read-Only:
 
@@ -52,8 +52,8 @@ Read-Only:
 - `last_hit_ts` (Number)
 
 
-<a id="nestedatt--rule--scope"></a>
-### Nested Schema for `rule.scope`
+<a id="nestedatt--rules--scope"></a>
+### Nested Schema for `rules.scope`
 
 Read-Only:
 
@@ -61,8 +61,8 @@ Read-Only:
 - `value` (String)
 
 
-<a id="nestedatt--rule--target"></a>
-### Nested Schema for `rule.target`
+<a id="nestedatt--rules--target"></a>
+### Nested Schema for `rules.target`
 
 Read-Only:
 
